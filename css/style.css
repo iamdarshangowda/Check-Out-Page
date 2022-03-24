@@ -1,0 +1,65 @@
+body {
+  font-family: Montserrat;
+}
+
+.cart {
+  display: flex;
+  float: right;
+  background-color: #f2f2f2;
+  border-radius: 12px;
+  width: 383px;
+  height: 525px;
+  flex-direction: column;
+  margin-right: 200px;
+}
+
+.bag-details,
+.shoe-details {
+  display: inline-block;
+}
+
+.bag-img,
+.shoe-img {
+  width: 125px;
+  border-radius: 12px;
+}
+
+.vintage,
+.shoe,
+.shipping,
+.total {
+  margin: 10px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19.5px;
+  color: #4e5150;
+}
+
+.new-price {
+  color: #f2994a;
+  font-weight: 600px;
+  font-size: 16px;
+  line-height: 20px;
+  transform: rotate(-0.02deg);
+}
+
+.old-price {
+  color: #4e5150;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration-line: line-through;
+}
+
+button {
+    color: #828282;
+  width: 135px;
+  height: 52px;
+  border: 1px solid #828282;
+  box-sizing: border-box;
+  border-radius: 12px;
+  
+}
