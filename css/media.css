@@ -1,0 +1,37 @@
+@media (min-width: 920px) {
+  .gridContainer {
+    margin-top: 2.25rem;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gridContainer--elementUp {
+    grid-column-start: 2;
+    max-width: 390px;
+
+    max-height: 37rem;
+  }
+  .gridContainer--elementDown {
+    max-width: 400px !important;
+    grid-row-start: 1;
+  }
+
+  .gridContainer__elementDown--inputArea input {
+    max-width: 380px !important;
+  }
+
+  .formBottomDiv {
+    max-width: 380px !important;
+  }
+}
+
+@media (max-width: 920px) {
+  .gridContainer--elementUp {
+    min-height: 600px;
+    margin-top: 2rem;
+  }
+  .gridContainer--elementDown {
+    margin-top: 2rem;
+  }
+}

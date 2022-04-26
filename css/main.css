@@ -1,0 +1,283 @@
+* {
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  margin: 0px;
+  text-decoration: none;
+}
+
+main {
+  width: 95vw;
+  max-width: 1000px;
+
+  /* center div */
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  margin-top: 2rem;
+  margin-left: 2rem;
+
+  font-size: 36px;
+  color: #4e5150;
+}
+
+h2 {
+  font-size: 16px;
+  color: #333333;
+}
+
+h3 {
+  /* margin-top: 3vh; */
+  /* margin-bottom: 5px; */
+
+  font-size: 14px;
+  color: #4f4f4f;
+}
+
+article {
+  max-width: 500px;
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  margin-top: 10vh;
+  margin-bottom: 1vh;
+  text-align: center;
+  width: 95vw;
+  max-width: 1000px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gridContainer--elementUp {
+  background-color: #f2f2f2;
+  border-radius: 15px;
+}
+.gridContainer__elementUp__itemList--element {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-top: 2rem;
+
+  display: flex;
+}
+
+.gridContainer__elementUp__itemList__element--imageDiv {
+  width: 150px;
+  height: 150px;
+}
+.gridContainer__elementUp__itemList__element--imageDiv img {
+  max-width: 100%;
+  max-height: 100%;
+
+  border-radius: 15px;
+}
+
+.gridContainer__elementUp__itemList__element--itemInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  margin-left: 1rem;
+}
+
+.gridContainer__elementUp__itemList__element__itemInfo__productNamePrice--ProductPriceDiv {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  align-items: center;
+}
+
+.gridContainer__elementUp__itemList__element__itemInfo__productNamePrice--productName {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 15px;
+  color: #4e5150;
+}
+
+.gridContainer__elementUp__itemList__element__itemInfo__productNamePrice__ProductPriceDiv--currentPrice {
+  color: #f2994a;
+  font-size: 20px;
+  font-style: normal;
+}
+
+.gridContainer__elementUp__itemList__element__itemInfo__productNamePrice__ProductPriceDiv--oldPrice {
+  font-size: 16px;
+  color: #4e5150;
+  font-style: normal;
+  text-decoration: line-through;
+}
+.gridContainer__elementUp__itemList__element__itemInfo--quantityDiv {
+  /* ten margin mi sie nie podoba */
+
+  width: 120px;
+  height: 35px;
+
+  border-style: solid;
+  border-radius: 12px;
+  padding: 8px 10px;
+  border-color: #828282;
+  border-width: 1px;
+}
+.gridContainer__elementUp__itemList__element__itemInfo__quantityDiv--content {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gridContainer__elementUp__itemList__element__itemInfo__quantityDiv--content
+  button {
+  border-style: none;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+}
+
+.gridContainer__elementUp__itemList__element__itemInfo__quantityDiv--content
+  button:hover {
+  background-color: #e0e0e0ae;
+  transition: 0.3s;
+}
+
+.gridContainer__elementUp__itemList__element__itemInfo__quantityDiv--content
+  span {
+  font-size: 20px;
+  vertical-align: middle;
+  color: #828282;
+}
+.gridContainer__elementUp__itemList__element__itemInfo__quantityDiv--content p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #333333;
+}
+
+.gridContainer__elementUp__itemList--subtotal {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6rem;
+}
+
+.gridContainer__elementUp__itemList--subtotal hr {
+  height: 1px;
+  border-width: 0;
+  color: gray;
+  background-color: gray;
+}
+
+.gridContainer__elementUp__itemList__subtotal--element {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0px;
+}
+
+.gridContainer__elementUp__itemList__subtotal__element-priceTag {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.gridContainer--elementDown {
+  max-width: 500px;
+  width: 90vw;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gridContainer__elementDown__inputArea--contactInfo form {
+  margin-bottom: 2rem;
+}
+
+.gridContainer__elementDown__inputArea--contactInfo input,
+.gridContainer__elementDown__inputArea--shippingAddress input {
+  font-family: FontAwesome, Arial, Helvetica, sans-serif;
+  font-style: solid;
+
+  margin-top: 5px;
+  margin-bottom: 20px;
+
+  width: 100%;
+  max-width: 450px;
+
+  border-width: 2px;
+  border-radius: 12px;
+  border-style: solid;
+  border-color: #828282;
+  height: 40px;
+  padding-left: 10px;
+}
+
+.gridContainer__elementDown--inputArea form {
+  margin-top: 20px;
+}
+
+.gridContainer__elementDown--inputArea p {
+  /* margin-top: 10px;
+  margin-bottom: 5px; */
+}
+
+.formBottomDiv {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 450px;
+}
+
+.formBottomDiv--element {
+  width: 45%;
+}
+
+.gridContainer__elementDown__inputArea--chechboxDiv {
+}
+.gridContainer__elementDown__inputArea--chechboxDiv p {
+  height: 20px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-left: 10px;
+}
+.gridContainer__elementDown__inputArea--chechboxDiv input {
+  font-weight: 600;
+  font-size: 12px;
+
+  width: 20px;
+  height: 20px;
+
+  border-width: 1px;
+  border-radius: 4px;
+}
+.gridContainer__elementDown__inputArea__chechboxDiv--checkbox {
+  float: left;
+}
+
+.gridContainer__elementDown__inputArea__chechboxDiv--bottomText {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #4f4f4f;
+}
+
+.gridContainer__elementDown__inputArea--continueDiv button {
+  display: block;
+
+  margin-left: auto;
+  padding: 16px 45px;
+  background-color: #f2994a;
+  border-style: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+}
+
+.inputArea__contactInfo--email::before {
+  content: url(resources/devchakkenges.png);
+}
